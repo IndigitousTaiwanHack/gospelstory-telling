@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+	<style type="text/css">
+	*{
+		/*outline: solid 1px #f00;*/
+	}
+	.bb{
+    margin-top: :-50px;
+  }
+  .navbar-brand{
+    height: 114px;
+  }
+  .hori{
+    margin-top: 1em;
+    padding-top: 2em;
+    padding-left: 3em;
+    padding-right: 5em;
+  }
+  .form-group{
+    font-size: 2em;
+    height: 1.5em;
+    margin-top: 2px;
+    padding-top: 1em;
+  }
+  .form-control{
+    margin-top: 2px;
+  }
+  .btns{
+    margin-bottom: -62px
+  }
+  .navbar-toggle{
+    margin-top: 38px;
+  }
+  .dd{
+    float: left;
+  }
+  .gg{
+    position: relative;
+    margin-top: 2em;
+    margin-left: 23em;
+}
+.content{
+	margin-left: 2em;
+}
+.input{
+  width: 80%;
+  margin-left: 2em;
+  padding-bottom: 3em;
+  margin-top: 5em;
+}
+/*.left{
+	float: left;
+	width: 250px;
+}
+.right{
+	float: right;
+}*/
+
+	</style>
+
+
+</head>
+<body>
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand bb" href="#"><img alt="Brand" src="./jesus_christ copy.png" width="100px" height="100px"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav hori">
+        <li><a href="index.html">大家分享的作品</a></li>
+        <li class="active"><a href="#">自己動手建立<span class="sr-only"></span></a></li>
+        <!-- <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li> -->
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default btns">Submit</button>
+      </form>
+     <!--  <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul> -->
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="input">
+<h3>影片長度</h3>
+<select class="form-control">
+  <option>30 sec</option>
+  <option>小於1 min</option>
+  <option>2 min</option>
+  <option>3 min</option>
+  <option>大於5 min</option>
+</select>
+<h3>受眾年齡層</h3>
+<select class="form-control">
+  <option>小於18歲</option>
+  <option>18 - 25歲</option>
+  <option>25 - 35歲</option>
+  <option>35 -45歲</option>
+  <option>大於45歲</option>
+</select>
+<h3>關鍵字</h3>
+<label class="sr-only" for="inputHelpBlock">關鍵字</label>
+<input type="text" id="inputHelpBlock" class="form-control" aria-describedby="helpBlock">
+
+<span id="helpBlock" class="help-block">章節,請用逗號間隔</span>
+
+<a class="btn btn-primary" href="preview.html" role="button">開始建立</a>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
