@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>123</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
-</head> 
+	<link href="https://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
 <style type="text/css">
 	.form-group{
 		width: 50%;
@@ -30,14 +30,14 @@
   <div class="form-group">
     <label for="contactname" class="control-label">Email</label>
   	<input type="text" class="form-control" id="contactname" placeholder="enter Email please">
-    
-  	
+
+
   </div>
 
   <div class="form-group">
     <label for="contactpass" class="control-label">Password</label>
     <input type="password" class="form-control" id="contactpass" placeholder="Password">
-  	
+
   </div>
 
   <div class="checkbox col-md-offet-1">
@@ -49,11 +49,11 @@
   <div class="col-md-offset-1 col-sm-8">
   <button type="button" id="contactbtn"class="btn btn-default">Submit</button>
   </div>
-</form>	
+</form>
 
 
 
-		
+
 
 <script src="https://code.jquery.com/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -62,7 +62,7 @@
 
 function validateText(id){
 		if($("#"+id).val()==null || $("#"+id).val()==""){
-			
+
 			var div = $("#"+id).closest("div");
 			div.removeClass("has-success");
 			$("#glypcn"+id).remove();
@@ -84,8 +84,8 @@ function validateText(id){
 			if(validateText("contactname")){
 				return false;
 			}
-				
-			
+
+
 			if(validateText("contactpass")){
 				return false;
 			}
@@ -93,8 +93,8 @@ function validateText(id){
 		});
 	});
 
-		
-	
+
+
 </script>
 </body>
 </html>
