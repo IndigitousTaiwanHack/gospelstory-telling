@@ -5,17 +5,12 @@
 	<link rel="icon" type="image/x-icon" href="bootstrap/pic/christal.ico">
 	<title>Christal</title>
 	<link href="bootstrap/css/bootstrap.min.css.map" rel="stylesheet">
-  <link href="https://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
-
-</head>
-<style type="text/css">
-  *{
-    /*outline: 1px solid #f00;*/
-  }
-  .content{
-    margin-top: 6em;
-  }
-  .bb{
+    <link href="https://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+	<style type="text/css">
+	*{
+		/*outline: solid 1px #f00;*/
+	}
+	.bb{
     margin-top: :-50px;
   }
   .navbar-brand{
@@ -49,8 +44,84 @@
     position: relative;
     margin-top: 2em;
     margin-left: 23em;
-  }
-</style>
+}
+.content{
+	margin-left: 2em;
+}
+.input{
+  width: 80%;
+  margin-left: 2em;
+  padding-bottom: 3em;
+  margin-top: 5em;
+}
+.breadcrumb{
+  margin-top: -19px;
+}
+.show{
+  width: 45%;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+/*.left{
+	float: left;
+	width: 250px;
+}
+.right{
+	float: right;
+}*/
+.cool{
+  background-color: #000;
+  padding: 2em 10px;
+}
+.type{
+  color: #fff;
+
+}
+.quo{
+  background-color: #ddd;
+  margin-left: 4em;
+}
+.row{
+  margin-left: 15px;
+}
+h4{
+  font-weight: bold;
+  padding-left: 2em;
+}
+.form-control{
+  margin-left: 3em;
+  width: 50%;
+}
+.jumbotron{
+  padding: 20px;
+}
+.btn-danger{
+  position: relative;
+  left: 76vw;
+  top: -13vh;
+  padding: 16px;
+  font-size: 2em;
+  font-weight: bold;
+}
+@media screen and (max-width: 700px)
+{
+
+  .btn-danger{
+
+  left: 30vw;
+  top: -2vh;}
+
+  .form-control{
+  margin-left: 3em;
+  width: 90%;
+}
+}
+ }
+
+	</style>
+
+
+</head>
 <body>
 	<nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -68,7 +139,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav hori">
-        <li class="active"><a href="#">大家分享的作品 <span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="index.html">大家分享的作品<span class="sr-only"></span></a></li>
         <li><a href="create.html">自己動手建立</a></li>
         <!-- <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
@@ -105,105 +176,74 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+<ol class="breadcrumb">
+  <li><a href="#">首頁</a></li>
+  <li><a href="#">大家分享的作品</a></li>
+  <li class="active">影片</li>
+</ol>
+<div class="row cool">
+  <div class="col-md-6 show">
 
-<!--- thumbnail -->
-<div class="content">
-<div class="row">
-  <div class="col-sm-12 col-md-4">
-    <div class="thumbnail">
-      <img src="bootstrap/pic/1.png" alt="...">
-      <div class="caption">
-        <h3 class="dd"><a href="film1.html">五千人吃到飽</a></h3><p class="gg"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>200</p>
-      </div>
-    </div>
 
-  </div>
-  <div class="col-sm-12 col-md-4">
-    <div class="thumbnail">
-      <img src="bootstrap/pic/2.png" alt="...">
-			<div class="caption">
-				<h3 class="dd"><a href="film2.html">第一次吵架就上手</a></h3>
-				<p class="gg"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>200</p>
-			</div>
-    </div>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/9T-7oQQ6uFA" frameborder="0" allowfullscreen></iframe>
+ </div>
+  <div class="col-md-6">
+  <div class="list-group">
+  <h3 class="type">摘錄經節</h3>
+  <a href="#" class="list-group-item active">
+    <h4 class="list-group-item-heading">約翰8:14</h4>
+    <p class="list-group-item-text">說明文字</p>
+  </a>
 
+  <a href="#" class="list-group-item">
+    <h4 class="list-group-item-heading">約翰8:14</h4>
+    <p class="list-group-item-text">說明文字</p>
+  </a>
+
+  <a href="#" class="list-group-item">
+    <h4 class="list-group-item-heading">約翰8:14</h4>
+    <p class="list-group-item-text">說明文字</p>
+  </a>
+
+  <a href="#" class="list-group-item">
+    <h4 class="list-group-item-heading">約翰8:14</h4>
+    <p class="list-group-item-text">說明文字</p>
+  </a>
   </div>
-  <div class="col-sm-12 col-md-4">
-    <div class="thumbnail">
-      <img src="bootstrap/pic/3.png" alt="...">
-      <div class="caption">
-        <h3 class="dd"><a href="film3.html">這不是游泳！是受洗！</a></h3><p class="gg"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>200</p>
-      </div>
-    </div>
   </div>
+</div>
+<blockquote>
+  <div class="jumbotron">
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam sequi dolorum natus, laboriosam velit ea veniam eveniet sint. Sint, dignissimos.</p>
 
 </div>
+</blockquote>
+<h4>留言</h4>
+<textarea class="form-control" rows="3">
 
-<div class="row">
-  <div class="col-sm-12 col-md-4">
-    <div class="thumbnail">
-      <img src="bootstrap/pic/4.png" alt="...">
-      <div class="caption">
-        <h3 class="dd">頭髮spa</h3><p class="gg"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>200</p>
-      </div>
-    </div>
-
-  </div>
-  <div class="col-sm-12 col-md-4">
-    <div class="thumbnail"><a href="film.html">
-      <img src="bootstrap/pic/5.png" alt="...">
-      </a>
-      <div class="caption">
-        <h3 class="dd">開心的耶穌</h3>
-        <p class="gg"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>200</p>
-      </div>
-    </div>
-
-  </div>
-  <div class="col-sm-12 col-md-4">
-    <div class="thumbnail">
-      <img src="bootstrap/pic/6.png" alt="...">
-			<div class="caption">
-        <h3 class="dd">耶穌與他的門徒</h3><p class="gg"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>200</p>
-      </div>
-    </div>
-  </div>
-
-</div>
+</textarea>
 
 <div class="row">
-  <div class="col-sm-12 col-md-4">
-    <div class="thumbnail">
-      <img src="bootstrap/pic/7.png" alt="...">
-      <div class="caption">
-        <h3 class="dd">拜託你先把衣服穿上</h3><p class="gg"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>200</p>
-      </div>
-    </div>
+<h4>相關影片</h4>
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+			<iframe src="https://www.youtube.com/embed/pJOPZE6AKK0" frameborder="0" allowfullscreen></iframe>
+    </a>
+  </div>
 
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <iframe src="https://www.youtube.com/embed/_oaYYpHWA1Q" frameborder="0" allowfullscreen></iframe>
+    </a>
   </div>
-  <div class="col-sm-12 col-md-4">
-    <div class="thumbnail">
-      <img src="bootstrap/pic/8.png" alt="...">
-      <div class="caption">
-        <h3 class="dd">耶穌的左右手</h3><p class="gg"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>200</p>
-      </div>
-    </div>
+</div>
+<a class="btn btn-danger" href="create.html" role="button">我也要建立video</a>
 
-  </div>
-  <div class="col-sm-12 col-md-4">
-    <div class="thumbnail">
-      <img src="bootstrap/pic/9.png" alt="...">
-      <div class="caption">
-        <h3 class="dd">燦爛的自拍</h3><p class="gg"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>200</p>
-      </div>
-    </div>
-  </div>
 
 </div>
-</div>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
-
 </html>
